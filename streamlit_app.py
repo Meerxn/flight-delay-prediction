@@ -47,10 +47,13 @@ def load_models():
         if os.path.exists(path):
             models[name] = joblib.load(path)
 
-    # Load MLP
-    if os.path.exists('models/mlp_model.keras'):
-        import tensorflow as tf
-        models['Neural Network (MLP)'] = tf.keras.models.load_model('models/mlp_model.keras')
+    # Load MLP (TensorFlow may not be available on all platforms)
+    try:
+        if os.path.exists('models/mlp_model.keras'):
+            import tensorflow as tf
+            models['Neural Network (MLP)'] = tf.keras.models.load_model('models/mlp_model.keras')
+    except ImportError:
+        pass  # TF not available in this environment
 
     return models
 
