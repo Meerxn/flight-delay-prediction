@@ -44,7 +44,7 @@ streamlit run streamlit_app.py
 ```
 
 ### 4. Deployed App
-The app is deployed at: [Streamlit Community Cloud link]
+The app is deployed at: https://flight-delay-prediction-c2sebxjkfnwytbp7jmse8y.streamlit.app/
 
 ## Dataset
 - **Source:** Bureau of Transportation Statistics (BTS)
