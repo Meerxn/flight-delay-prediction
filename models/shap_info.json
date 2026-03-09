@@ -1,0 +1,16 @@
+{
+  "best_tree_model": "XGBoost",
+  "expected_value": -0.004526899196207523,
+  "top_features": [
+    "dep_hour",
+    "month",
+    "day_of_month",
+    "distance",
+    "day_of_week",
+    "state_Georgia",
+    "state_Other",
+    "state_Minnesota",
+    "state_California",
+    "state_Michigan"
+  ]
+}

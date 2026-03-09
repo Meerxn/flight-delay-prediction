@@ -1,0 +1,23 @@
+{
+  "total_rows": 1048575,
+  "total_columns": 17,
+  "clean_rows": 1024898,
+  "sample_rows": 75000,
+  "delay_rate": 0.10652181973230507,
+  "num_origins": 334,
+  "num_states": 52,
+  "feature_types": {
+    "numerical": [
+      "month",
+      "day_of_month",
+      "day_of_week",
+      "dep_hour",
+      "taxi_out",
+      "taxi_in",
+      "distance"
+    ],
+    "categorical": [
+      "origin_state_nm"
+    ]
+  }
+}
